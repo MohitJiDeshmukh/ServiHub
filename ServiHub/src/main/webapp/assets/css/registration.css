@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+:root {
+    --primary-color: #41C2CB;
+    --secondary-color: #80D6DC;
+}
+
+* {
+    box-sizing: border-box;
+}
+h2{
+    font-weight: 800;
+}
+a {
+    color: #333;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 15px 0;
+}
+
+body {
+    background-image: url("../images/login_background.jpg");
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    
+}
+form{
+    padding: 20px 40px 20px 40px;
+}
+.container .row .card{
+    margin-top: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+        0 10px 10px rgba(0, 0, 0, 0.22);
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.container .row .card .header{
+    padding-top: 30px; 
+}
+
+.container .row .card .header h2{
+    margin-top: 10px;
+}
+.container .row .card .social-container {
+    margin: 20px 0;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .row .card .social-container a {
+    border: 2px solid #A82C48;
+    border-radius: 50%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    height: 40px;
+    width: 40px;
+}
+
+.container .row .card .social-container a:hover {
+    transform: scale(1.08);
+    background: #A82C48;
+    border: none;
+    color: white;
+}
+
